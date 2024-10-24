@@ -1,6 +1,8 @@
 # Variables de Entorno
-### ¿Qué son las variables de entorno
-# COMPLETAR
+### ¿Qué son las variables de entorno?
+```
+Las variables de entorno son pares clave-valor que se utilizan para configurar el comportamiento de los procesos del sistema o de las aplicaciones que se están ejecutando. Estas variables permiten que las aplicaciones o scripts reciban información sobre el entorno en el que están trabajando, como las rutas de los directorios, las credenciales de acceso, los modos de configuración (desarrollo, producción, etc.), y otros valores necesarios.
+```
 
 ### Para crear un contenedor con variables de entorno?
 
