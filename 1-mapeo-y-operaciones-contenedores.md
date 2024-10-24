@@ -23,7 +23,8 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 ```
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
 
-![image](https://github.com/user-attachments/assets/7c0c0e58-40e7-4818-b9b7-ff18558f90a6)
+![image](https://github.com/user-attachments/assets/d3ca1935-255b-44e7-8ce8-acb63e2f9539)
+
 
 
 
@@ -44,8 +45,12 @@ El comando ls se usa para listar los archivos y directorios en el sistema de arc
 ### ¿Para qué sirve el argumento -l junto al comando ls?
 El argumento -l del comando ls sirve para mostrar la lista de archivos y directorios en formato de lista detallada. Esta lista incluye información como permisos de archivos, número de enlaces, propietario, grupo, tamaño y fecha de última modificación.
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
-# COMPLETAR
-# COLOCAR UNA CAPTURA DE PANTALLA
+```
+docker exec jenkins-container ls -l
+```
+
+![image](https://github.com/user-attachments/assets/c4b5936d-f62d-4bab-a8b5-066bb511b2c0)
+
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
 El comando **docker exec** te permite acceder a la sesión shell de un contenedor en ejecución, estarás dentro del contenedor y podrás ejecutar comandos como si estuvieras en una terminal normal. 
